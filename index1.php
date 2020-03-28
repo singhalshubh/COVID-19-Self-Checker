@@ -14,6 +14,13 @@
 			if(empty($section) || empty($input)) {
 				echo "Wrong input";
 			}
+			$query1 = "select id,decision from covid where id = $section";
+			$result1 = mysqli_query($db,$query1) or die(mysqli_error($db));
+			$responseArray1 = mysqli_fetch_all($result1,MYSQLI_ASSOC);
+			if($responseArray1[0]["id"]) {
+					$query = "delete from covid where id = $section";
+					$result = mysqli_query($db,$query) or die(mysqli_error($db));	
+			}
 			$query = "insert into covid values ('$section', '$input')";
 			$result = mysqli_query($db,$query) or die(mysqli_error($db));
 		}

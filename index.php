@@ -33,7 +33,7 @@
 				button.type = "button";
 				button.id = "btn"+i;
 				button.value = "Edit Stage "+i;
-				var url = 'index.php?idWeb='+i;
+				var url = 'indexEdit.php?idWeb='+i;
 				button.onclick = function() {location.href = url;};
 				document.getElementById("intro").appendChild(button);
 			}
