@@ -21,5 +21,15 @@
 	if(!isset($_GET["idWeb"]))
 		setcookie("stage",$stage,time() + (60*2), "/");
 	header("refresh:0.01,url=index.php");
-
 ?>
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Self Checker!</title>
+</head>
+<body>
+
+</body>
+</html>

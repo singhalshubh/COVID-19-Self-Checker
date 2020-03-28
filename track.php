@@ -14,7 +14,7 @@
 	$arrayIndex = array();
 	$k=0;
 	for($i=0; $i < $responseArray1[0]["cf"] ; $i++) {
-		if(strlen($responseArray[$i]["id"]) == $len+1 ) {
+		if(strlen($responseArray[$i]["id"]) == $len+1) {
 			$array[$k] = $responseArray[$i]["decision"];
 			$arrayIndex[$k] = $responseArray[$i]["id"];
 			$k = $k+1; 
