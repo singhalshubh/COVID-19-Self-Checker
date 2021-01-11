@@ -11,3 +11,8 @@ Enter the name of the node and the corresponding description.<br>
 # Run the repo <br>
 1. Download WAMP in Windows and run the 127.0.0.1/index.php?idWeb=1, for administrator.<br>
 2. For users, 127.0.0.1/track.php?idWeb=0.
+
+# Application
+Using this to create a form for exams can be useful. Google forms have two negative points, reodering using UI(scrolling becomes difficult and if there is a high number of questions then keeping track of the reodered number is difficult, and you cannot delete a response from a form when submitted).
+
+These issues can be resolved by using this system.
